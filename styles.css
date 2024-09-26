@@ -1,0 +1,224 @@
+h1{
+   color: rgb(86, 12, 183);
+   text-align: center;
+   font-size: 70px;
+   margin-bottom: 0%;
+   padding-bottom: 0%;
+}
+h2{
+    color:rgb(98, 187, 247);
+    text-align: center;
+    font-size: 30px ;
+}
+.h2-1{
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 800px;
+    margin-left: 18%;
+}
+h3{
+    color:rgb(79, 235, 108);
+    text-align: center;
+    font-size: 40px;
+}
+h4{
+    color: rgb(79, 235, 108);
+    text-align: center;
+    font-size: 50px;
+}
+button{
+    color:rgb(12,9,16);
+    background-color: rgb(145, 103, 183);
+    font-size: 30px;
+}
+p{
+    color: rgb(123, 231, 255);
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    color:rgb(189, 184, 245);
+    text-align: center;
+}
+a{
+    color:rgb(172, 96, 243);
+    text-align: center;
+    font-size: 30px;
+}
+body {
+    display: flexbox;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat;
+    color: rgb(91, 150, 204); 
+    margin-top: 0%;
+    padding-top: 0%;
+}
+body, html {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgb(14, 14, 14);
+    font-family: 'ariel';
+}
+
+.star {
+    position: fixed;
+    width: 1px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    animation: moveStar 10s linear infinite;
+}
+
+@keyframes moveStar {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+
+.technicalskills {
+    display: inline-block;
+    text-align: center;
+    background-color: #132d35;
+    color: rgb(130, 105, 223);
+    padding: 20px;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 6%;
+    position: relative;
+    top: 5%;
+    left: 30%;
+}
+
+.technicalskillsbtn{
+    margin-left: 7%;
+    background-color: #132d35;
+    color: rgb(130, 105, 223);
+    font-size: 35px;
+    border: none;
+
+}
+
+.technicalskillscontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.technicalskillscontent.technicalskillssection {
+    padding: 16px 16px;
+    align-items: center;
+    font-size: 50px;
+}
+
+.technicalskillscontent a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}
+
+.technicalskillscontent a:hover {
+    background-color: #8fa7fe;
+    text-align: center;
+}
+
+.technicalskills:hover .technicalskillscontent {
+    display: block;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.softskills {
+    display:flex;
+    width: 340px;
+    text-align: center;
+    background-color: #132d35;
+    color: rgb(130, 105, 223);
+    padding: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 6%;
+   position: relative;
+   top: 5%;
+   left: 30%;
+}
+
+.softskillsbtn{
+    background-color: #132d35;
+    color: rgb(130, 105, 223);
+    padding: 20px;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    margin-left: 7%;
+
+}
+
+.softskillscontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.softskillscontent.softskillssection {
+    padding: 16px 16px;
+    align-items: center;
+    font-size: 50px;
+}
+
+.softskillscontent a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+}
+
+.softskillscontent a:hover {
+    background-color: #8fa7fe;
+    text-align: center;
+}
+
+.softskills:hover .softskillscontent {
+    display: block;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
